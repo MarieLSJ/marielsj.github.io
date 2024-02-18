@@ -1,2 +1,2 @@
-# http-marielsj.github.io-
+# marielsj.github.io
 My professional website as dissertation doula
