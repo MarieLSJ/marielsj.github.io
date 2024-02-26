@@ -1218,6 +1218,22 @@ input[type="radio"] + label:before {
   .icon.brands:before {
     font-family: 'Font Awesome 6 Brands';       /* updated */ }
 
+  /* POP specifics */
+  .person:before {      
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    text-transform: none !important;
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 400; }
+    .person.man:before { content: '\f183' }
+    .person.woman:before { content: '\f182' }
+    .person.unknown:before { content: '\e548' }
+
 /* Image */
 .image {
   border-radius: 0.375em;
@@ -1681,20 +1697,6 @@ button,
       width: 100%; }
       .features article .content > :last-child {
         margin-bottom: 0; }
-    person:before {      /* specific to POP */
-      -moz-osx-font-smoothing: grayscale;
-      -webkit-font-smoothing: antialiased;
-      display: inline-block;
-      font-style: normal;
-      font-variant: normal;
-      text-rendering: auto;
-      line-height: 1;
-      text-transform: none !important;
-      font-family: 'Font Awesome 6 Free';
-      font-weight: 400; }
-      person.man:before { content: '\f183' }
-      person.woman:before { content: '\f182' }
-      person.unknown:before { content: '\e548' }
   @media screen and (max-width: 980px) {
     .features {
       margin: 0 0 2em 0;
