@@ -1,4 +1,4 @@
-@import url(fontawesome-all.min.css);
+@import url(fontawesome-all.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600,700,300i,600i,700i|Raleway:600,800");
 
 /*
@@ -2341,7 +2341,7 @@ input, select, textarea {
 			display: none;
 		}
 
-		.icon.solid:before {
+		.icon.fa-solid:before {
 			font-weight: 900;
 		}
 
@@ -2802,6 +2802,25 @@ input, select, textarea {
 		background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/320px-Flag_of_the_Netherlands.svg.png");
 	}
 
+/* TOC - Marie's addition */
+
+	.toc a {
+		font-weight: bold;
+	}
+
+	ul.toc {
+		position: relative;
+		list-style: none;
+	}
+
+	ul.toc li::before {
+		/* font-family: 'Font Awesome 6 Free';
+		content: "\f061"; */
+		content: "→";
+		position: absolute;
+		left: 0;
+	}
+
 /* Table */
 
 	.table-wrapper {
@@ -3206,10 +3225,16 @@ input, select, textarea {
 
 		ul.feature-icons li {
 			margin: 2.5rem 0 0 0;
-			padding: 0.5rem 0 0 4.5rem;
+			padding: 1rem 0 0 4.5rem; /* padding-top updated by Marie */
 			position: relative;
 			width: 50%;
+			font-family: "Source Sans Pro", Helvetica, sans-serif; /* added by Marie */
+			line-height: 1.5em; /* added by Marie */
 		}
+
+			ul.feature-icons li.fa-solid { /* added by Marie */
+				font-weight: normal;
+			}
 
 			ul.feature-icons li:before {
 				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' viewBox='0 0 512 512'%3E%3Cpath d='M256,0l221.7,128v256L256,512L34.3,384V128L256,0z' fill='rgba(144, 144, 144, 0.1)' /%3E%3C/svg%3E");
