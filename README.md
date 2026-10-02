@@ -5,6 +5,8 @@ My professional website ~~as dissertation doula~~, "Copyediting with care"
 * On Sunday 18 February 2024, Leon van Wissen helped me set up this static page on GitHub.
 * On Monday 19 February 2024, I switched over to the [Paradigm Shift](https://html5up.net/astral) template by HTML5 UP.
 * On Friday 4 April 2025, I changed the tagline from "Dissertation doula" to "Copyediting with care" and updated the website, including the Font Awesome package.
+* From Monday 7 to 24 April 2025, I translated and localized the website for my French-language clientèle and added new elements to the dissertation-focused English-language website, but did not push these changes.
+* On Tuesday 26 May 2026, I updated the English-language website.
 
 # marielsj.github.io/POP_website
 Responsive HTML5 for _Price One Penny_
